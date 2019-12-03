@@ -1,0 +1,22 @@
+{
+  "name": "fesg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackfrate/FESG.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackfrate/FESG/issues"
+  },
+  "homepage": "https://github.com/jackfrate/FESG#readme",
+  "dependencies": {
+    "@types/node": "^12.12.14",
+    "@types/request-promise-native": "^1.0.17",
+    "request-promise-native": "^1.0.8"
+  }
+}

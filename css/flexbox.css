@@ -1,0 +1,54 @@
+.flexList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* containers */
+div[class^="container"] {
+  display: flex;
+  flex-direction: row;
+  min-width: 1000px;
+
+  padding: 5px;
+
+  border-width: 5px;
+  border-color: blue;
+  border-style: solid;
+}
+
+.container1 {
+  justify-content: flex-start;
+}
+.container2 {
+  justify-content: flex-end;
+}
+.container3 {
+  justify-content: space-around;
+}
+.container4 {
+  justify-content: center;
+}
+.container5 {
+  justify-content: space-between;
+}
+
+/* sample items */
+div[class^="sampleItem"] {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.sampleItem1 {
+  background-color: green;
+}
+.sampleItem2 {
+  background-color: red;
+}
+.sampleItem3 {
+  background-color: gold;
+}
+.sampleItem4 {
+  background-color: black;
+}
