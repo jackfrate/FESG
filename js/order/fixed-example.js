@@ -16,7 +16,7 @@ function print2() {
 
 
 /**
- * ! while the functions above are correct, focus on the main function for the main idea
+ * ! while the functions above are correct, focus on the main function for the main idea of async await
  */
 
 async function main() {
