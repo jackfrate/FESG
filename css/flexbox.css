@@ -2,6 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-width: 5px;
+  border-color: blue;
+  border-style: solid;
+  padding: 15px;
 }
 /* containers */
 div[class^="container"] {
